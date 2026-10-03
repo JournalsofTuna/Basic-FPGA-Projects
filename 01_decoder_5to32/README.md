@@ -17,4 +17,8 @@ This project implements a 5-to-32 line address decoder targeted for the Digilent
 * `rtl/decoder_5to32_basys3.v`: Synthesizable top-level Verilog RTL module.
 * `tb/tb_decoder_5to32.v`: Automated self-checking simulation testbench.
 * `constr/basys3_pins.xdc`: Physical pin constraints and I/O standard mappings for the Basys 3 board.
-* `docs/waveform.png`: Behavioral simulation waveform capture demonstrating decoding and bank transitions.
+* And Here is a view from Simulation:
+* <img width="937" height="275" alt="image" src="https://github.com/user-attachments/assets/bfea80ec-69b1-41b0-8833-3fde6bbe69ab" />
+
+
+
