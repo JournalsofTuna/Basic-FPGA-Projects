@@ -12,6 +12,11 @@ To overcome this, the architecture utilizes a dual-counter structure:
 1. **Prescaler Counter:** Divides the 100 MHz primary clock down to run the base PWM period at **~1.001 kHz**, an optimal switching frequency for human persistence of vision and transient-free LED driving.
 2. **Duty-Cycle Comparator:** An 8-bit digital comparator evaluating the active cycle counter against the current target register (`duty_reg`).
 
+## Simulation Analysis from Testbench
+<img width="1162" height="667" alt="62755f1d-6b6b-4a0d-add7-273ad4b120bd" src="https://github.com/user-attachments/assets/7d2795e6-8a46-4290-8bf9-44cd6f724116" />
+
+
+
 ### Mathematical Model
 
 $$\text{Prescaler Ratio} = 390$$
@@ -44,6 +49,3 @@ $$\text{Step Size} = \frac{16}{256} \times 100\% = 6.25\%$$
                                   |   duty_reg [7:0] -----------------------------------> duty_leds (LD7..LD0)
                                   +------------------------------------------------------+
 
-
-## 3. Simulation Analysis
-<img width="1162" height="667" alt="62755f1d-6b6b-4a0d-add7-273ad4b120bd" src="https://github.com/user-attachments/assets/2bad8dff-a4da-46dd-bae7-be4ed81cf115" />
