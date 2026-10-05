@@ -10,3 +10,4 @@ This repository contains fundamental digital design and FPGA implementations wri
 | # | Project Name | Description | Target Board | Verification |
 |---|--------------|-------------|--------------|--------------|
 | 01 | [5-to-32 Decoder](./01_decoder_5to32) | 5-to-32 decoder with 16-LED bank selection | Basys 3 | Behavioral TB & Hardware |
+| 02 | [PWM-Generator](./PWM-Generator) | Variable duty-cycle PWM controller (~1 kHz, 8-bit resolution) with debounced edge-detected push-buttons | Basys 3 | Behavioral TB & Hardware |
