@@ -1,3 +1,5 @@
+# 01 - Decoder 5 to 32 
+
 ## Overview
 This project implements a 5-to-32 line address decoder targeted for the Digilent Basys 3 FPGA development board (Xilinx Artix-7 XC7A35T). It translates a 5-bit input address (`sw_adr[4:0]`) into an active-high 32-bit one-hot output.
 
