@@ -22,11 +22,15 @@ This project implements a 2-bit unsigned magnitude comparator targeted for the D
 
 ---
 
+
 ## Verification & Simulation
 
 - **Exhaustive Testbench:** The behavioral testbench (`tb_comparator_2bit.v`) sweeps through all 16 possible input permutations ($2^2 \times 2^2$ input space), asserting correct output states across the full numeric range.
 - **Waveform Validation:** Verified glitch-free transitions and mutually exclusive flag activations across all edge states ($A = B$, $A < B$, $A > B$) in Vivado Simulator.
 - **Hardware In-the-Loop Test:** Synthesized, implemented, and programmed onto the Basys 3 board via JTAG. Verified physical switch combinations against expected real-time LED responses.
+
+And Here a view from Simulation:
+<img width="977" height="458" alt="1a53dcd1-c7da-4336-8065-461046664a87" src="https://github.com/user-attachments/assets/26bffd9a-1b8f-4973-b662-a6f51fc249cf" />
 
 ---
 
