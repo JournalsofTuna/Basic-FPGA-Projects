@@ -36,6 +36,7 @@ WRITE: Incrementally bursts calculated values into the output BRAM (ram_Out) and
   [0x0200]   [0x0200]   [0x0200]   [0x0200]
   [0x0200]   [0x0200]   [0x0200]   [0x0200]
 =======================================================
+
 And Here a view from Simulation:
 
 <img width="847" height="476" alt="image" src="https://github.com/user-attachments/assets/ed707621-190c-4b90-9017-e427bb1d4964" />
