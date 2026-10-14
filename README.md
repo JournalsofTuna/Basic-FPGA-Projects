@@ -11,4 +11,4 @@ This repository contains fundamental digital design and FPGA implementations wri
 | 01 | [5-to-32 Decoder](./01-Decoder-5-to-32) | 5-to-32 decoder with 16-LED bank selection | Basys 3 | Behavioral TB & Hardware |
 | 02 | [PWM-Generator](./02-PWM-Generator) | Variable duty-cycle PWM controller (~1 kHz, 8-bit resolution) with debounced edge-detected push-buttons | Basys 3 | Behavioral TB & Hardware |
 | 03 | [2-Bit-Magnitude-Comparator](./03-2-Bit-Magnitude-Comparator) | 2-bit unsigned magnitude comparator ($A>B$, $A=B$, $A<B$) with dedicated LED indicator flags | Basys 3 | Behavioral TB & Hardware |
-| 04 | [4x4-Fixed-Point-Matrix-Multiplier](./04_fixed_point_matrix_mult) | Fully parallel 4x4 matrix multiplication core in Q8.8 signed fixed-point format with inferable synchronous BRAM | Basys 3 (Artix-7) | Behavioral TB  |
+| 04 | [4x4-Fixed-Point-Matrix-Multiplier](./04_fixed_point_matrix_mult) | Fully parallel 4x4 matrix multiplication core in Q8.8 signed fixed-point format with inferable synchronous BRAM | Basys 3 | Behavioral TB  |
